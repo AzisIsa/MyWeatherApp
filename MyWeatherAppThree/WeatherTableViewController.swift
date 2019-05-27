@@ -15,7 +15,7 @@ class WeatherTableViewController: UITableViewController, UISearchBarDelegate  {
     @IBOutlet weak var selectCityButton: UIBarButtonItem!
     @IBOutlet weak var locationButton: UIBarButtonItem!
     
-    var cityName = ""
+    var cityName = "Bishkek"
     var forecastData = [Weather]()
     
     

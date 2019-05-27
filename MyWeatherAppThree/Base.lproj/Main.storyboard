@@ -94,20 +94,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jhT-E3-XDV">
-                                <rect key="frame" x="0.0" y="309" width="414" height="216"/>
+                                <rect key="frame" x="0.0" y="265" width="414" height="216"/>
                                 <connections>
                                     <outlet property="dataSource" destination="ijO-Dl-JJq" id="0Na-zo-Afr"/>
                                     <outlet property="delegate" destination="ijO-Dl-JJq" id="kXl-Zd-MIS"/>
                                 </connections>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bishkek" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwm-6I-1bT">
-                                <rect key="frame" x="170" y="184.5" width="74.5" height="26.5"/>
+                                <rect key="frame" x="170" y="140.5" width="74.5" height="26.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWY-uR-wsO">
-                                <rect key="frame" x="182.5" y="586" width="49" height="38"/>
+                                <rect key="frame" x="182.5" y="542" width="49" height="38"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Done"/>
                                 <connections>
@@ -115,7 +115,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select City" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOv-Fs-Lxh">
-                                <rect key="frame" x="165.5" y="140" width="83" height="20.5"/>
+                                <rect key="frame" x="165.5" y="96" width="83" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -188,13 +188,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Bishkek" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19l-Ue-dMm">
-                                <rect key="frame" x="20" y="118" width="374" height="26.5"/>
+                                <rect key="frame" x="20" y="74" width="374" height="26.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jp5-76-1kc">
-                                <rect key="frame" x="20" y="164.5" width="374" height="38"/>
+                                <rect key="frame" x="20" y="120.5" width="374" height="38"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="See Weather"/>
                                 <connections>
@@ -253,6 +253,6 @@
         <image name="pin" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tii-gt-g6f"/>
+        <segue reference="Z46-p6-UE0"/>
     </inferredMetricsTieBreakers>
 </document>

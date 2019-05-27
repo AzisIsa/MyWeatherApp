@@ -15,9 +15,20 @@
 		0A8D16B1226CBEAC00D8114E /* WeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D16B0226CBEAC00D8114E /* WeatherTableViewController.swift */; };
 		0A8D16B3226CBF7B00D8114E /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D16B2226CBF7A00D8114E /* Weather.swift */; };
 		0A8D16B9226DFF0C00D8114E /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D16B8226DFF0C00D8114E /* PickerViewController.swift */; };
+		0ADD9913229970040052942C /* MyWeatherAppThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD9912229970040052942C /* MyWeatherAppThreeTests.swift */; };
 		0AFD543A227366B0004FCD6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AFD5439227366B0004FCD6E /* GoogleService-Info.plist */; };
 		769D68461CBA23231C9D9953 /* Pods_MyWeatherAppThree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A34D5B7CD90B1FF8FA0DBC3 /* Pods_MyWeatherAppThree.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0ADD9915229970040052942C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8D1693226CBDC500D8114E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8D169A226CBDC500D8114E;
+			remoteInfo = MyWeatherAppThree;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0A449A9122733C5200C0165C /* MyWeatherAppThree.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyWeatherAppThree.entitlements; sourceTree = "<group>"; };
@@ -31,6 +42,9 @@
 		0A8D16B0226CBEAC00D8114E /* WeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewController.swift; sourceTree = "<group>"; };
 		0A8D16B2226CBF7A00D8114E /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		0A8D16B8226DFF0C00D8114E /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		0ADD9910229970040052942C /* MyWeatherAppThreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWeatherAppThreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ADD9912229970040052942C /* MyWeatherAppThreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWeatherAppThreeTests.swift; sourceTree = "<group>"; };
+		0ADD9914229970040052942C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AFD5439227366B0004FCD6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		198B52DAD10AE162A5FB546C /* Pods-MyWeatherAppThree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeatherAppThree.debug.xcconfig"; path = "Target Support Files/Pods-MyWeatherAppThree/Pods-MyWeatherAppThree.debug.xcconfig"; sourceTree = "<group>"; };
 		2A10C836059DD76C568A7754 /* Pods-MyWeatherAppThree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeatherAppThree.release.xcconfig"; path = "Target Support Files/Pods-MyWeatherAppThree/Pods-MyWeatherAppThree.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,6 +60,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0ADD990D229970040052942C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -53,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				0A8D169D226CBDC500D8114E /* MyWeatherAppThree */,
+				0ADD9911229970040052942C /* MyWeatherAppThreeTests */,
 				0A8D169C226CBDC500D8114E /* Products */,
 				E40DC1946E0730A8CDBAA25D /* Pods */,
 				109811A84415C5C33D217774 /* Frameworks */,
@@ -63,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				0A8D169B226CBDC500D8114E /* MyWeatherAppThree.app */,
+				0ADD9910229970040052942C /* MyWeatherAppThreeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +106,15 @@
 				0A8D16AA226CBDC600D8114E /* Info.plist */,
 			);
 			path = MyWeatherAppThree;
+			sourceTree = "<group>";
+		};
+		0ADD9911229970040052942C /* MyWeatherAppThreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0ADD9912229970040052942C /* MyWeatherAppThreeTests.swift */,
+				0ADD9914229970040052942C /* Info.plist */,
+			);
+			path = MyWeatherAppThreeTests;
 			sourceTree = "<group>";
 		};
 		109811A84415C5C33D217774 /* Frameworks */ = {
@@ -124,6 +156,24 @@
 			productReference = 0A8D169B226CBDC500D8114E /* MyWeatherAppThree.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0ADD990F229970040052942C /* MyWeatherAppThreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ADD9919229970040052942C /* Build configuration list for PBXNativeTarget "MyWeatherAppThreeTests" */;
+			buildPhases = (
+				0ADD990C229970040052942C /* Sources */,
+				0ADD990D229970040052942C /* Frameworks */,
+				0ADD990E229970040052942C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ADD9916229970040052942C /* PBXTargetDependency */,
+			);
+			name = MyWeatherAppThreeTests;
+			productName = MyWeatherAppThreeTests;
+			productReference = 0ADD9910229970040052942C /* MyWeatherAppThreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -145,6 +195,10 @@
 							};
 						};
 					};
+					0ADD990F229970040052942C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0A8D169A226CBDC500D8114E;
+					};
 				};
 			};
 			buildConfigurationList = 0A8D1696226CBDC500D8114E /* Build configuration list for PBXProject "MyWeatherAppThree" */;
@@ -161,6 +215,7 @@
 			projectRoot = "";
 			targets = (
 				0A8D169A226CBDC500D8114E /* MyWeatherAppThree */,
+				0ADD990F229970040052942C /* MyWeatherAppThreeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -174,6 +229,13 @@
 				0AFD543A227366B0004FCD6E /* GoogleService-Info.plist in Resources */,
 				0A8D16A6226CBDC600D8114E /* Assets.xcassets in Resources */,
 				0A8D16A4226CBDC500D8114E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ADD990E229970040052942C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +305,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0ADD990C229970040052942C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADD9913229970040052942C /* MyWeatherAppThreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0ADD9916229970040052942C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8D169A226CBDC500D8114E /* MyWeatherAppThree */;
+			targetProxy = 0ADD9915229970040052942C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0A8D16A2226CBDC500D8114E /* Main.storyboard */ = {
@@ -421,6 +499,46 @@
 			};
 			name = Release;
 		};
+		0ADD9917229970040052942C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQK83W3X27;
+				INFOPLIST_FILE = MyWeatherAppThreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azisisa.MyWeatherAppThreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWeatherAppThree.app/MyWeatherAppThree";
+			};
+			name = Debug;
+		};
+		0ADD9918229970040052942C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQK83W3X27;
+				INFOPLIST_FILE = MyWeatherAppThreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azisisa.MyWeatherAppThreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWeatherAppThree.app/MyWeatherAppThree";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -438,6 +556,15 @@
 			buildConfigurations = (
 				0A8D16AE226CBDC600D8114E /* Debug */,
 				0A8D16AF226CBDC600D8114E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ADD9919229970040052942C /* Build configuration list for PBXNativeTarget "MyWeatherAppThreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ADD9917229970040052942C /* Debug */,
+				0ADD9918229970040052942C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
