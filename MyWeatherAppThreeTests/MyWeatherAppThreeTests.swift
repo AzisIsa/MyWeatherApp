@@ -2,32 +2,80 @@
 //  MyWeatherAppThreeTests.swift
 //  MyWeatherAppThreeTests
 //
-//  C reated by Azis Isa on 5/25/19.
+//  Created by Azis Isa on 5/28/19.
 //  Copyright © 2019 Azis Isa. All rights reserved.
 //
 
 import XCTest
-@testable import Pods_MyWeatherAppThree
+@testable import MyWeatherAppThree
 
 class MyWeatherAppThreeTests: XCTestCase {
-
+    
+    var sut: URLSession!
+    
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        super.setUp()
+        sut = URLSession(configuration: .default)
     }
-
+    
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
+        super.tearDown()
     }
-
-    func testUserFilteringString() {
-      
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    // Asynchronous test: success fast, failure slow
+    func testValidCallToDarkSkyGetsHTTPStatusCode200() {
+        // given
+        let url =
+            URL(string: "https://api.darksky.net/forecast/25636ea5d6a23fbec62ba9099a153648/42.8746,74.5698")
+        // 1
+        let promise = expectation(description: "Status code: 200")
+        
+        // when
+        let dataTask = sut.dataTask(with: url!) { data, response, error in
+            // then
+            if let error = error {
+                XCTFail("Error: \(error.localizedDescription)")
+                return
+            } else if let statusCode = (response as? HTTPURLResponse)?.statusCode {
+                if statusCode == 200 {
+                    // 2
+                    promise.fulfill()
+                } else {
+                    XCTFail("Status code: \(statusCode)")
+                }
+            }
         }
+        dataTask.resume()
+        // 3
+        wait(for: [promise], timeout: 5)
     }
+    
+    func testCallToDarkSkyCompletes() {
+        // given
+        let url =
+            URL(string: "https://api.darksky.net/forecast/25636ea5d6a23fbec62ba9099a153648/42.8746,74.5698")
+        let promise = expectation(description: "Completion handler invoked")
+        var statusCode: Int?
+        var responseError: Error?
+        
+        // when
+        let dataTask = sut.dataTask(with: url!) { data, response, error in
+            statusCode = (response as? HTTPURLResponse)?.statusCode
+            responseError = error
+            promise.fulfill()
+        }
+        dataTask.resume()
+        wait(for: [promise], timeout: 5)
+        
+        // then
+        XCTAssertNil(responseError)
+        XCTAssertEqual(statusCode, 200)
+    }
+    
+
+   
+
+
 
 }

@@ -15,13 +15,14 @@
 		0A8D16B1226CBEAC00D8114E /* WeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D16B0226CBEAC00D8114E /* WeatherTableViewController.swift */; };
 		0A8D16B3226CBF7B00D8114E /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D16B2226CBF7A00D8114E /* Weather.swift */; };
 		0A8D16B9226DFF0C00D8114E /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D16B8226DFF0C00D8114E /* PickerViewController.swift */; };
-		0ADD9913229970040052942C /* MyWeatherAppThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD9912229970040052942C /* MyWeatherAppThreeTests.swift */; };
+		0ADD9993229D83940052942C /* MyWeatherAppThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD9992229D83940052942C /* MyWeatherAppThreeTests.swift */; };
 		0AFD543A227366B0004FCD6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AFD5439227366B0004FCD6E /* GoogleService-Info.plist */; };
+		4D6AF08C25263F0BB3DC1644 /* Pods_MyWeatherAppThree_MyWeatherAppThreeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875CB52BCA4DBBFF933674BF /* Pods_MyWeatherAppThree_MyWeatherAppThreeTests.framework */; };
 		769D68461CBA23231C9D9953 /* Pods_MyWeatherAppThree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A34D5B7CD90B1FF8FA0DBC3 /* Pods_MyWeatherAppThree.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0ADD9915229970040052942C /* PBXContainerItemProxy */ = {
+		0ADD9995229D83940052942C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0A8D1693226CBDC500D8114E /* Project object */;
 			proxyType = 1;
@@ -42,13 +43,16 @@
 		0A8D16B0226CBEAC00D8114E /* WeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewController.swift; sourceTree = "<group>"; };
 		0A8D16B2226CBF7A00D8114E /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		0A8D16B8226DFF0C00D8114E /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
-		0ADD9910229970040052942C /* MyWeatherAppThreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWeatherAppThreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0ADD9912229970040052942C /* MyWeatherAppThreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWeatherAppThreeTests.swift; sourceTree = "<group>"; };
-		0ADD9914229970040052942C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ADD9990229D83940052942C /* MyWeatherAppThreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWeatherAppThreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ADD9992229D83940052942C /* MyWeatherAppThreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWeatherAppThreeTests.swift; sourceTree = "<group>"; };
+		0ADD9994229D83940052942C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AFD5439227366B0004FCD6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		198B52DAD10AE162A5FB546C /* Pods-MyWeatherAppThree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeatherAppThree.debug.xcconfig"; path = "Target Support Files/Pods-MyWeatherAppThree/Pods-MyWeatherAppThree.debug.xcconfig"; sourceTree = "<group>"; };
 		2A10C836059DD76C568A7754 /* Pods-MyWeatherAppThree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeatherAppThree.release.xcconfig"; path = "Target Support Files/Pods-MyWeatherAppThree/Pods-MyWeatherAppThree.release.xcconfig"; sourceTree = "<group>"; };
 		4A34D5B7CD90B1FF8FA0DBC3 /* Pods_MyWeatherAppThree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWeatherAppThree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		875CB52BCA4DBBFF933674BF /* Pods_MyWeatherAppThree_MyWeatherAppThreeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWeatherAppThree_MyWeatherAppThreeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A08E7BB18D36F79447E9613 /* Pods-MyWeatherAppThree-MyWeatherAppThreeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeatherAppThree-MyWeatherAppThreeTests.release.xcconfig"; path = "Target Support Files/Pods-MyWeatherAppThree-MyWeatherAppThreeTests/Pods-MyWeatherAppThree-MyWeatherAppThreeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8C91FB5285A4115ED92E738 /* Pods-MyWeatherAppThree-MyWeatherAppThreeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeatherAppThree-MyWeatherAppThreeTests.debug.xcconfig"; path = "Target Support Files/Pods-MyWeatherAppThree-MyWeatherAppThreeTests/Pods-MyWeatherAppThree-MyWeatherAppThreeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +64,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0ADD990D229970040052942C /* Frameworks */ = {
+		0ADD998D229D83940052942C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6AF08C25263F0BB3DC1644 /* Pods_MyWeatherAppThree_MyWeatherAppThreeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				0A8D169D226CBDC500D8114E /* MyWeatherAppThree */,
-				0ADD9911229970040052942C /* MyWeatherAppThreeTests */,
+				0ADD9991229D83940052942C /* MyWeatherAppThreeTests */,
 				0A8D169C226CBDC500D8114E /* Products */,
 				E40DC1946E0730A8CDBAA25D /* Pods */,
 				109811A84415C5C33D217774 /* Frameworks */,
@@ -85,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				0A8D169B226CBDC500D8114E /* MyWeatherAppThree.app */,
-				0ADD9910229970040052942C /* MyWeatherAppThreeTests.xctest */,
+				0ADD9990229D83940052942C /* MyWeatherAppThreeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,11 +113,11 @@
 			path = MyWeatherAppThree;
 			sourceTree = "<group>";
 		};
-		0ADD9911229970040052942C /* MyWeatherAppThreeTests */ = {
+		0ADD9991229D83940052942C /* MyWeatherAppThreeTests */ = {
 			isa = PBXGroup;
 			children = (
-				0ADD9912229970040052942C /* MyWeatherAppThreeTests.swift */,
-				0ADD9914229970040052942C /* Info.plist */,
+				0ADD9992229D83940052942C /* MyWeatherAppThreeTests.swift */,
+				0ADD9994229D83940052942C /* Info.plist */,
 			);
 			path = MyWeatherAppThreeTests;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				4A34D5B7CD90B1FF8FA0DBC3 /* Pods_MyWeatherAppThree.framework */,
+				875CB52BCA4DBBFF933674BF /* Pods_MyWeatherAppThree_MyWeatherAppThreeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,6 +136,8 @@
 			children = (
 				198B52DAD10AE162A5FB546C /* Pods-MyWeatherAppThree.debug.xcconfig */,
 				2A10C836059DD76C568A7754 /* Pods-MyWeatherAppThree.release.xcconfig */,
+				F8C91FB5285A4115ED92E738 /* Pods-MyWeatherAppThree-MyWeatherAppThreeTests.debug.xcconfig */,
+				9A08E7BB18D36F79447E9613 /* Pods-MyWeatherAppThree-MyWeatherAppThreeTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -156,22 +164,24 @@
 			productReference = 0A8D169B226CBDC500D8114E /* MyWeatherAppThree.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0ADD990F229970040052942C /* MyWeatherAppThreeTests */ = {
+		0ADD998F229D83940052942C /* MyWeatherAppThreeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0ADD9919229970040052942C /* Build configuration list for PBXNativeTarget "MyWeatherAppThreeTests" */;
+			buildConfigurationList = 0ADD9997229D83940052942C /* Build configuration list for PBXNativeTarget "MyWeatherAppThreeTests" */;
 			buildPhases = (
-				0ADD990C229970040052942C /* Sources */,
-				0ADD990D229970040052942C /* Frameworks */,
-				0ADD990E229970040052942C /* Resources */,
+				BCF4C0AC8471DDA836B69064 /* [CP] Check Pods Manifest.lock */,
+				0ADD998C229D83940052942C /* Sources */,
+				0ADD998D229D83940052942C /* Frameworks */,
+				0ADD998E229D83940052942C /* Resources */,
+				D3F77C6022EA8FDC0AA52A5D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0ADD9916229970040052942C /* PBXTargetDependency */,
+				0ADD9996229D83940052942C /* PBXTargetDependency */,
 			);
 			name = MyWeatherAppThreeTests;
 			productName = MyWeatherAppThreeTests;
-			productReference = 0ADD9910229970040052942C /* MyWeatherAppThreeTests.xctest */;
+			productReference = 0ADD9990229D83940052942C /* MyWeatherAppThreeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -195,7 +205,7 @@
 							};
 						};
 					};
-					0ADD990F229970040052942C = {
+					0ADD998F229D83940052942C = {
 						CreatedOnToolsVersion = 10.2.1;
 						TestTargetID = 0A8D169A226CBDC500D8114E;
 					};
@@ -215,7 +225,7 @@
 			projectRoot = "";
 			targets = (
 				0A8D169A226CBDC500D8114E /* MyWeatherAppThree */,
-				0ADD990F229970040052942C /* MyWeatherAppThreeTests */,
+				0ADD998F229D83940052942C /* MyWeatherAppThreeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,7 +242,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0ADD990E229970040052942C /* Resources */ = {
+		0ADD998E229D83940052942C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,6 +278,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyWeatherAppThree/Pods-MyWeatherAppThree-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BCF4C0AC8471DDA836B69064 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyWeatherAppThree-MyWeatherAppThreeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CD97CDD9903E9D66FEEEC6B2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,6 +322,32 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D3F77C6022EA8FDC0AA52A5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyWeatherAppThree-MyWeatherAppThreeTests/Pods-MyWeatherAppThree-MyWeatherAppThreeTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyWeatherAppThree-MyWeatherAppThreeTests/Pods-MyWeatherAppThree-MyWeatherAppThreeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -305,21 +363,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0ADD990C229970040052942C /* Sources */ = {
+		0ADD998C229D83940052942C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ADD9913229970040052942C /* MyWeatherAppThreeTests.swift in Sources */,
+				0ADD9993229D83940052942C /* MyWeatherAppThreeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0ADD9916229970040052942C /* PBXTargetDependency */ = {
+		0ADD9996229D83940052942C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0A8D169A226CBDC500D8114E /* MyWeatherAppThree */;
-			targetProxy = 0ADD9915229970040052942C /* PBXContainerItemProxy */;
+			targetProxy = 0ADD9995229D83940052942C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -394,6 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PODS_ROOT}/Firebase/Core/Sources/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -401,6 +460,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -441,6 +501,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -449,6 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PODS_ROOT}/Firebase/Core/Sources/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -467,6 +529,19 @@
 				CODE_SIGN_ENTITLEMENTS = MyWeatherAppThree/MyWeatherAppThree.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NQK83W3X27;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseMessaging\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Protobuf\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"$SRCROOT",
+				);
 				INFOPLIST_FILE = MyWeatherAppThree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -487,6 +562,19 @@
 				CODE_SIGN_ENTITLEMENTS = MyWeatherAppThree/MyWeatherAppThree.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NQK83W3X27;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseMessaging\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Protobuf\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"$SRCROOT",
+				);
 				INFOPLIST_FILE = MyWeatherAppThree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -499,8 +587,9 @@
 			};
 			name = Release;
 		};
-		0ADD9917229970040052942C /* Debug */ = {
+		0ADD9998229D83940052942C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C91FB5285A4115ED92E738 /* Pods-MyWeatherAppThree-MyWeatherAppThreeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -519,8 +608,9 @@
 			};
 			name = Debug;
 		};
-		0ADD9918229970040052942C /* Release */ = {
+		0ADD9999229D83940052942C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A08E7BB18D36F79447E9613 /* Pods-MyWeatherAppThree-MyWeatherAppThreeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -560,11 +650,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0ADD9919229970040052942C /* Build configuration list for PBXNativeTarget "MyWeatherAppThreeTests" */ = {
+		0ADD9997229D83940052942C /* Build configuration list for PBXNativeTarget "MyWeatherAppThreeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0ADD9917229970040052942C /* Debug */,
-				0ADD9918229970040052942C /* Release */,
+				0ADD9998229D83940052942C /* Debug */,
+				0ADD9999229D83940052942C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

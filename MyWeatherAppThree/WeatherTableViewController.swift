@@ -17,7 +17,7 @@ class WeatherTableViewController: UITableViewController, UISearchBarDelegate  {
     
     var cityName = "Bishkek"
     var forecastData = [Weather]()
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -94,3 +94,4 @@ class WeatherTableViewController: UITableViewController, UISearchBarDelegate  {
         return cell
     }
 }
+

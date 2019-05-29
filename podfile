@@ -8,4 +8,7 @@ target 'MyWeatherAppThree' do
   # Pods for MyWeatherAppThree
 pod 'Firebase/Core'
 pod 'Firebase/Messaging'
+target 'MyWeatherAppThreeTests' do
+    inherit! :complete
+end
 end
